@@ -1,0 +1,47 @@
+*{
+  align-items:center ;
+  font-family: sans-serif;
+
+}
+.App{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.squarebox{
+  margin-top: 50%;
+  width: 180px;
+  height: 200px;
+}
+.squarebox .color{
+  padding-top: 60px;
+}
+.squarebox >p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  
+}
+.Colorform{
+  
+  justify-content: space-between;
+}
+.Colorform>input{
+  font-size: 23px;
+  width: 175px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+  
+}
+.Colorform>button{
+  font-size: 20px;
+  width: 180px;
+  height: 40px;
+  border: none;
+  background-color: rgb(124, 112, 238);
+
+}
